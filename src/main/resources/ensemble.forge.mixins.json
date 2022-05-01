@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "ensemble.mixin.cc.mixin.client",
+  "refmap": "mixins.ensemble.refmap.json",
+  "mixins": [
+    "MixinEntityRenderer",
+    "MixinEntity",
+    "MixinMinecraft",
+    "MixinItemRenderer",
+    "MixinEntityLivingBase",
+    "MixinEntityPlayer",
+    "MixinAbstractClientPlayer",
+    "MixinEntityPlayerSP",
+    "MixinConnection",
+    "MixinRenderEntityItem",
+    "MixinGui",
+    "MixinGuiNewChat",
+    "MixinGuiScreen",
+    "MixinNetworkManager",
+    "MixinGuiPlayerTabOverlay",
+    "MixinGuiButton",
+    "MixinC03Packet",
+    "MixinModelBiped",
+    "MixinS08Packet",
+    "MixinKeyBinding",
+    "MixinBlock",
+    "MixinBlockRendererDispatcher",
+    "MixinLayerHeldItem",
+    "MixinRender",
+    "MixinTileEntityMobSpawnerRenderer"
+  ]
+}
